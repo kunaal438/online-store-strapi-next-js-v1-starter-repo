@@ -48,7 +48,7 @@ The online store has a lot of real world features such as -
 2. **Cart sync** - local storage to user account.
 3. Checkout product validations and **product stock locking** to prevent overselling.
 4. Category, color and price based **search filter** for products on search page. 
-5. **Email notification** on Joining, Order plcaement / updates, any dispute alert, support status.
+5. **Email notification** on Joining, Order placement / updates, any dispute alert, support status.
 6. **Release of all locked product stocks** states in case of order failure or checkout expiry. ( Every 10 mins CRON JOB )
 7. Fully wokring **support page** with support status on emails and support management by Strapi "support" Role user.
 8. **SSR** dynamic product page, search page, support page, categories, sub-cateogries and more to help general site SEO. ( Only works with real data )
