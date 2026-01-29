@@ -6,6 +6,8 @@ In this repo, you will know about this project's details on what stack it is bui
 
 👉 You can check it live on - https://online-store-v1.modernweblabs.in 
 
+---
+
 ## Project Stack
 
 This online store uses all the latest frameworks and libraries
@@ -32,24 +34,24 @@ This online store uses all the latest frameworks and libraries
 
 1. **Postgres SQL** - This project uses Postgres SQL database instead of Strapi's default SQLite database.
    
+---
+
 ## Project Features
-
-The online store has a lot of real world features such as -
-
-1. **Google based authentication** with Next Auth for frontend session management and Strapi for validating the auth and create store specific JWT key.
-2. **Cart sync** - local storage to user account.
-3. Checkout product validations and **product stock locking** to prevent overselling.
-4. Category, color and price based **search filter** for products on search page. 
-5. **Email notification** on Joining, Order placement / updates, any dispute alert, support status.
-6. **Release of all locked product stocks** states in case of order failure or checkout expiry. ( Every 10 mins CRON JOB )
-7. Fully wokring **support page** with support status on emails and support management by Strapi "support" Role user.
-8. **SSR** dynamic product page, search page, support page, categories, sub-cateogries and more to help general site SEO. ( Only works with real data )
-9. **Fraud protection** by stopping the user from making new order until thier dispute on delivered order is resolveds.
-10. Beautiful **Modern and Responsice** Frontend UI with Chakra UI + **Dual theme** store.
+   
+1. **Cart sync** - local storage to user account.
+2. Checkout product validations and **product stock locking** to prevent overselling.
+3. Category, color and price based **search filter** for products on search page. 
+4. **Email notification** on Joining, Order placement / updates, any dispute alert, support status.
+5. **Release of all locked product stocks** in case of order failure or checkout expiry. ( Every 10 mins CRON JOB )
+6. Fully wokring **support page** with support status on emails and support management by Strapi "support" Role user.
+7. **SSR** dynamic product page, search page, support page, categories, sub-cateogries and more to help general site SEO. ( Only Effective with real data )
+8.  **Fraud protection** by stopping the user from making new order until their dispute on delivered order is resolved.
+9.  Beautiful **Modern and Responsive** Frontend UI with Chakra UI + **Dual theme** store.
     
     and **much more..**
 
+---
 
-If you have any question regarding this project feel free to contact me on help@modernweb.in. 
+If you have any question regarding this project feel free to contact on help@modernweb.in. 
 
 I would love to hear you feedback on this project, share your feedback on feedback@modernweb.in
