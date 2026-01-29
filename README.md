@@ -8,38 +8,30 @@ In this repo, you will know about this project's details on what stack it is bui
 
 ## Project Stack
 
-This online store uses all the latest frameworks and libraries 
+This online store uses all the latest frameworks and libraries
+
 <br />
 <p align="center">
  <img width="400" alt="Screenshot 2025-09-19 at 1 56 55 PM" src="https://github.com/user-attachments/assets/a19bbb8f-d6e1-4db5-bd58-c5282eb958c9" />
 </p>
 
-#### Frontend
-
-<!--
-<img width="2152" height="1353" style="margin-bottom:20px;" alt="Screenshot 2025-09-19 at 1 46 58 PM" src="https://github.com/user-attachments/assets/b9f07737-0135-4c37-b605-65b4afa7efe5" />
-<br><br />
--->
+### Frontend
 
 1. **Next JS** - This framework is built on top of react JS. Next js offers some great features like SSR, APIs, ISR etc.
 2. **Next Auth** - For user auth session management in frontend with google auth support.
 3. **Chakra UI** - For easy, modern, responsive, functional UI components
 
-#### Backend
+### Backend
 
-<!--
-<img width="2540" height="1235" alt="Screenshot 2025-09-19 at 1 52 57 PM" src="https://github.com/user-attachments/assets/96efc03d-92f9-4c03-b663-60c685458e9b" />
--->
-  
-1. **Strapi** - It is a open source professional level CMS ( content management system ), we are using this to manage the data fos tore like order management or products management.
-2.  **Stripe** - It is a beginner freindly and easy to use payment gateway which does not require any kind of business verification to use in test mode. This projects run in test mode do no real transaction is involded on this project demo at least.
-3. **Cloudinary** - This projects uses cloudinary to manage file uploads, all the files generated on strapi of frontend get saved on cloudinary.
-4. **Nodemailer** - This project also uses nodemailer to send email notifications like welcome email, order status or dispute notificaiton etc.
+1. **Strapi** - It is an open source professional level CMS ( content management system ), we are using this to manage the data for store like order management or products management.
+2. **Stripe** - It is a beginner friendly and easy to use payment gateway which does not require any kind of business verification to use in test mode. These projects run in test mode. No real transaction is involved on this project demo at least.
+3. **Cloudinary** - This project uses cloudinary to manage file uploads, all the files generated on strapi of frontend get saved on cloudinary.
+4. **Nodemailer** - This project also uses nodemailer to send email notifications like welcome email, order status or dispute notification etc.
 
-#### Database
+### Database
 
-1. **Postgres SQL** - This project uses Postgrest SQL database instead of Strapi's default SQLite database.
-
+1. **Postgres SQL** - This project uses Postgres SQL database instead of Strapi's default SQLite database.
+   
 ## Project Features
 
 The online store has a lot of real world features such as -
